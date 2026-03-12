@@ -7,7 +7,7 @@ const products = [
     {
     id: '019–002', name: 'Oversized Flannel Jacket', type: 'jacket', price: '₹6,499',
     img: "reve-images-1/Urban_Female_3.png",
-    hoverImg: "reve-images-2/Female_Model_3.png"
+    hoverImg: "reve-images-1/Female_Model_3.png"
     },
     {
     id: '019–003', name: 'Wide Leg Cargo Pants',   type: 'bottom',  price: '₹3,999',
