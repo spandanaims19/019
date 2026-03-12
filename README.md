@@ -39,19 +39,19 @@ Designed for an audience that doesn't follow trends. They set silence.
 ## Screenshots
 
 **Home**
-![Home](screenshots\019-home.jpg)
+![Home](screenshots/019-home.jpg)
 
 **New Drops — Locked State**
-![New Drops Locked](screenshots\019-new-drops.jpg)
+![New Drops Locked](screenshots/019-new-drops.jpg)
 
 **Men's Page**
-![Men](screenshots\019-men.jpg)
+![Men](screenshots/019-men.jpg)
 
 **Women's Page**
-![Men](screenshots\019-women.jpg)
+![Men](screenshots/019-women.jpg)
 
 **About Page**
-![Men](screenshots\019-about.jpg)
+![Men](screenshots/019-about.jpg)
 
 ---
 
