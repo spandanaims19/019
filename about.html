@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — 019</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style-about.css">
+</head>
+
+<body>
+
+  <div id="cursor"></div>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <button class="header-btn" onclick="openNav()">
+        Menu
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
+          <path stroke="currentColor" stroke-width="1.5" d="M0 1h15M0 7h15"/>
+        </svg>
+      </button>
+      <a href="index.html" class="logo-link" id="logo">
+        <span class="logo-dot" id="logo-dot"></span>
+      </a>
+      <button class="header-btn">Bag <sup id="cart-count">0</sup></button>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <div class="nav-overlay" id="nav-overlay" onclick="closeNav()"></div>
+  <nav class="nav-panel" id="nav-panel">
+    <button class="nav-close" onclick="closeNav()">&#x2715;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="new-drops.html">New Drops <span class="badge">Live</span></a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="about.html" class="active">About 019</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+    <div class="nav-bottom">
+      <p>Follow</p>
+      <div class="nav-social">
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Twitter / X</a>
+        <a href="#" target="_blank">Pinterest</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE -->
+  <main class="page">
+
+    <!-- ── HERO ──────────────────────────────── -->
+    <section class="about-hero">
+      <div class="about-hero-bg">
+        <img src="reve-images-1/Korean_girl_wide_cargo_pants.png" alt="019" />
+      </div>
+      <div class="about-hero-content">
+        <p class="about-hero-label">Est. 2025 — Drop Culture</p>
+        <h1 class="about-hero-title">
+          NOT FOR<br>
+          EVERY<span class="red">ONE.</span>
+        </h1>
+        <p class="about-hero-sub">
+          A label built on silence.<br>
+          Structured for the ones who already know.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── STORY ──────────────────────────────── -->
+    <section class="section reveal">
+      <div class="section-label">Our Story</div>
+      <div class="story-grid">
+        <div class="story-heading">
+          We Don't<br>
+          <span class="muted">Follow</span><br>
+          Seasons.
+        </div>
+        <div class="story-body">
+          <p>
+            <strong>019 started with one question:</strong> why does streetwear keep apologizing for itself? Every brand chasing trends, every drop a reaction to what sold last month.
+          </p>
+          <p>
+            We do the opposite. <strong>019 is built on restraint.</strong> One drop at a time. Pieces designed to last longer than the algorithm that pushed them to you.
+          </p>
+          <p>
+            The name means nothing — and everything. <strong>019 is a number with no history.</strong> We gave it one.
+          </p>
+          <p>
+            No seasonal collections. No restocks. No explanations. <strong>If you get it, you get it.</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── NUMBERS ─────────────────────────────── -->
+    <div class="numbers-section reveal">
+      <div class="numbers-inner">
+        <div class="number-item">
+          <div class="number-value"><span class="red">01</span></div>
+          <div class="number-label">Active Drop</div>
+        </div>
+        <div class="number-item">
+          <div class="number-value">019</div>
+          <div class="number-label">Pieces Per Drop</div>
+        </div>
+        <div class="number-item">
+          <div class="number-value"><span class="red">0</span></div>
+          <div class="number-label">Restocks. Ever.</div>
+        </div>
+        <div class="number-item">
+          <div class="number-value">∞</div>
+          <div class="number-label">Ways To Wear It</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── EDITORIAL IMAGES ────────────────────── -->
+    <section class="editorial-section reveal">
+      <div class="section-label">The Look</div>
+      <div class="editorial-grid">
+        <div class="editorial-img editorial-img-main">
+          <img src="reve-images-1\tech-zip-jacket-2.png" alt="019 Editorial" />
+        </div>
+        <div class="editorial-img editorial-img-side">
+          <img src="reve-images-1\girl-drop-shoulder-hoodie.png" alt="019 Editorial" />
+        </div>
+        <div class="editorial-text">
+          <blockquote>
+            "Wear less.<br>
+            <span class="red">Say more."</span>
+          </blockquote>
+          <cite>— 019 Drop 01, 2025</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MANIFESTO ───────────────────────────── -->
+    <section class="manifesto-section reveal">
+      <div class="manifesto-inner">
+        <div class="section-label">The Rules</div>
+        <ul class="manifesto-lines">
+          <li>Buy it because you want it. Not because it's trending.</li>
+          <li>Wear it like you meant it.</li>
+          <li>No restock means no second chances.</li>
+          <li>The drop is the event.</li>
+          <li>Style is silence. Loud is for the lost.</li>
+          <li>019 is not for everyone. That's the point.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="newsletter">
+    <div class="footer-inner">
+      <label class="newsletter-label">
+        Drop alerts only. No noise.
+        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 41.2 19.4" fill="none">
+          <path stroke="currentColor" stroke-width="2" d="m30.7.692 9 9-9 9M38.5 9.892H0"/>
+        </svg>
+      </label>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input class="newsletter-input" type="email" placeholder="your@email.com" required />
+        <button class="newsletter-btn">Join</button>
+      </form>
+      <div class="payment-logos">
+        <svg class="payment-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" height="22" width="auto">
+          <rect width="780" height="500" rx="40" fill="#1a1f71"/>
+          <path d="M293.2 348.7l33.4-195.7h53.4l-33.4 195.7h-53.4zm246.7-191.1c-10.6-3.9-27.1-8.1-47.8-8.1-52.7 0-89.8 26.3-90.1 64-.3 27.8 26.5 43.4 46.7 52.6 20.7 9.4 27.7 15.5 27.6 23.9-.1 12.9-16.6 18.8-31.9 18.8-21.3 0-32.7-2.9-50.2-10l-6.9-3.1-7.5 43.4c12.5 5.4 35.5 10.1 59.4 10.3 56.1 0 92.5-25.9 92.9-66.1.2-22-14-38.8-44.6-52.6-18.6-8.9-30-14.9-29.9-24 0-8 9.7-16.6 30.5-16.6 17.4-.3 30 3.5 39.8 7.4l4.8 2.2 7.2-41zm137.7-4.6h-41.2c-12.8 0-22.3 3.4-27.9 16l-79.2 176.9h56l11.1-28.8 68.3.1c1.6 6.7 6.5 28.7 6.5 28.7h49.5l-43.1-192.9zm-65.6 124.5c4.4-11.1 21.2-53.9 21.2-53.9-.3.5 4.4-11.2 7.1-18.4l3.6 16.6s10.2 46 12.3 55.7h-44.2zm-363.5-124.5l-52.2 133.5-5.6-26.8c-9.7-30.9-40-64.4-73.9-81.1l47.8 168.6 56.5-.1 84.1-194.1h-56.7z" fill="#fff"/>
+          <path d="M146.9 152.9H60.2l-.7 4c67 16 111.4 54.7 129.9 101.2l-18.7-88.9c-3.2-12.3-12.6-15.9-23.8-16.3z" fill="#f9a533"/>
+        </svg>
+        <svg class="payment-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 131.39 86.9" height="22" width="auto">
+          <rect width="131.39" height="86.9" rx="7" fill="#252525"/>
+          <circle cx="49.72" cy="43.45" r="28.15" fill="#eb001b"/>
+          <circle cx="81.67" cy="43.45" r="28.15" fill="#f79e1b"/>
+          <path d="M65.7 19.2a28.14 28.14 0 0 1 0 48.5 28.14 28.14 0 0 1 0-48.5z" fill="#ff5f00"/>
+        </svg>
+      </div>
+      <div class="footer-copy">
+        <span>© 2025 019 — All Rights Reserved</span>
+        <span class="red">Not for everyone. Made for you.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="script-about.js"></script>
+</body>
+</html>

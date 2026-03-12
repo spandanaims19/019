@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>019 — Not for everyone. Made for you.</title>
+    <link rel="shortcut icon" href="019_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor"></div>
+
+  <!-- ─── DROP TICKER ──────────────────── -->
+  <div class="ticker">
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
+  <!-- ─── HEADER ──────────────────────── -->
+  <header class="header">
+    <div class="header-inner">
+      <button class="header-btn" onclick="openNav()">
+        Menu
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
+          <path stroke="currentColor" stroke-width="1.5" d="M0 1h15M0 7h15"/>
+        </svg>
+      </button>
+
+      <a href="index.html" class="logo-link" id="logo">
+        <span class="logo-dot" id="logo-dot"></span>
+      </a>
+
+      <button class="header-btn">Bag <sup id="cart-count">0</sup></button>
+    </div>
+  </header>
+
+  <!-- ─── NAV ─────────────────────────── -->
+  <div class="nav-overlay" id="nav-overlay" onclick="closeNav()"></div>
+  <nav class="nav-panel" id="nav-panel">
+    <button class="nav-close" onclick="closeNav()">&#x2715;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="new-drops.html">New Drops <span class="badge">Live</span></a></li>
+      <li><a href="men.html">Men</a></li>
+      <li><a href="women.html">Women</a></li>
+      <li><a href="about.html">About 019</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+    <div class="nav-bottom">
+      <p>Follow</p>
+      <div class="nav-social">
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Twitter / X</a>
+        <a href="#" target="_blank">Pinterest</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── MAIN ─────────────────────────── -->
+  <div class="page">
+    <div class="container">
+      <div class="grid" id="product-grid">
+
+        <!-- Wide intro card -->
+        <div class="card card-wide">
+          <div class="card-wide-content">
+            <h2>
+              <span class="brand">019</span><br>
+              <span class="tagline">Wear the silence.</span>
+            </h2>
+            <p>019 is a streetwear label built on silence and structure.<br>Limited drops. No restocks. Wear it or miss it.</p>
+          </div>
+          <div class="card-wide-meta">
+            <span>Current Drop</span>
+            <strong>DROP 01</strong>
+          </div>
+        </div>
+
+        <!-- Hero card -->
+        <div class="card card-hero card-media">
+          <div class="card-image-wrap">
+            <img src="reve-images-1\female_flare_cargo_pants_1.png" alt="019 Drop 01" />
+            <img class="img-hover" src="reve-images-1\female_flare_cargo_pants.png" alt="019 Drop 01 hover" />
+          </div>
+          <div class="card-info">
+            <div class="card-title">
+              <span class="name">Drop 07 — Flare Cargo Pants</span>
+            </div>
+            <span class="card-price">₹3,799</span>
+          </div>
+        </div>
+
+        <!-- Filter bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" onclick="filterProducts('all', this)">All</button>
+          <button class="filter-btn ghost" onclick="filterProducts('hoodie', this)">Hoodies</button>
+          <button class="filter-btn ghost" onclick="filterProducts('jacket', this)">Jackets</button>
+          <button class="filter-btn ghost" onclick="filterProducts('bottom', this)">Bottoms</button>
+        </div>
+
+        <!-- JS renders product cards here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── FOOTER ───────────────────────── -->
+  <footer class="footer" id="newsletter">
+    <div class="footer-inner">
+      <label class="newsletter-label">
+        Drop alerts only. No noise.
+        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="16" viewBox="0 0 41.2 19.4" fill="none">
+          <path stroke="currentColor" stroke-width="2" d="m30.7.692 9 9-9 9M38.5 9.892H0"/>
+        </svg>
+      </label>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input class="newsletter-input" type="email" placeholder="your@email.com" required />
+        <button class="newsletter-btn">Join</button>
+      </form>
+      <div class="payment-logos">
+        <span style="font-family:'DM Mono',monospace;font-size:11px;color:#555">VISA</span>
+        <span style="font-family:'DM Mono',monospace;font-size:11px;color:#555">MC</span>
+        <span style="font-family:'DM Mono',monospace;font-size:11px;color:#555">PAYPAL</span>
+      </div>
+
+      <div class="footer-copy">
+        <span>© 2025 019 — All Rights Reserved</span>
+        <span class="red">Not for everyone. Made for you.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
