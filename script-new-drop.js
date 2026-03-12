@@ -3,7 +3,7 @@
        Format: 'YYYY-MM-DDTHH:MM:SS'
     ═══════════════════════════════════════════ */
 
-const DROP_DATE = new Date('2025-04-01T12:00:00');
+const DROP_DATE = new Date('2026-04-01T12:00:00');
 
     /* ── PRODUCTS ───────────────────────────── */
     const products = [
